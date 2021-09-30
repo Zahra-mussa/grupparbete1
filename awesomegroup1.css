@@ -1,0 +1,290 @@
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  
+
+body{
+    background-color: wheat;
+    margin: 0;
+}
+
+body a {
+    text-decoration: none;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+section{
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+
+.header-menu{
+    background-color:rgb(87, 80, 112) ;
+    border-bottom: solid rgb(66, 66, 77) 10px;
+    color: black;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    width: 100%;
+    z-index: 1;
+}
+
+.header-menu img{
+    width: 100px;
+    height: 90px;
+    margin-left: 45px;
+}
+
+.link-menu a{
+    margin: 60px;
+    margin-right: 100px;
+    font-size: 20px;
+
+}
+
+.contact i{
+    display: flex;
+}
+
+.contact i:hover{
+    transform: scale(1.8);
+}
+
+.link-menu{
+    display: flex;
+    flex-direction: row;
+}
+
+.link-menu a:hover {
+    background-color: wheat;
+    transform: scale(1.8);
+    border-radius: 20px;
+    padding: 0px 10px;
+}
+
+
+.home-photo {
+    position: relative;
+    width: 100%;
+}
+
+.home-photo img {
+    width: 100%;
+    height: calc(100vh - 80px);
+    object-fit: cover;
+    margin-top: 80px;
+}
+
+.home-photo-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: calc(100vh - 80px); /*ta reda på hur*/
+    background: rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 80px;
+}
+
+.home-photo-overlay a {
+    text-decoration: none;
+    background-color: transparent;
+    padding: 8px 15px;
+    font-size: 20px;
+    border-radius: 20px;
+    color: wheat;
+}
+
+.home-photo-overlay h1{
+    color: wheat;
+    font-size: 45px;
+}
+
+.home-photo-overlay a:hover{
+    background-color: blanchedalmond;
+    color: black;
+    transform: scale(1.5);
+}
+
+
+.link-menu{
+
+}
+
+
+.link-right{
+
+}
+
+
+.footer {
+    padding:40px 0;
+    background-color:#ffffff;
+    color: grey;
+  }
+  
+
+  
+  .footer .social {
+    text-align:center;
+    
+  }
+  
+  .footer .social > a {
+    font-size:30px;
+    width:50px;
+    height:50px;
+    line-height:50px;
+    display:inline-block;
+    border-radius:50%;
+    border:2px solid grey;
+    margin:0 8px;
+    color: grey;
+    opacity:0.75;
+  }
+  
+  .footer .social a:hover {
+    opacity:0.9;
+  }
+  
+  .footer .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:grey;
+    margin-bottom:0;
+  }
+
+  .footer .info {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:grey;
+    margin-bottom:0;
+  }
+
+
+a {
+text-decoration: none;
+
+}
+
+a:link {
+color:grey;
+}
+
+
+a:visited {
+color: none;
+}
+
+
+a:hover {
+color: black;
+text-decoration: none;
+}
+
+
+a:active {
+color: black;
+}
+
+/*sarah*/
+
+.body{
+    background-color: white;
+    color:black;
+}
+.först {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 80px;
+    margin-top: 120px;
+
+
+
+}
+
+.första h4, .första p, .andra h4, .andra p, .tredje h4, .terdje p, .fjärde h4, .fjärde p{
+    text-shadow: 1px 0px 1px #cccccc, 0px 1px 1px #EEEEEE,2px 1px 1px #cccccc, 1px 2px 1px #EEEEEE,3px 2px 1px #cccccc, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 4px 5px 1 px#CCCCCC,5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+
+}
+
+
+
+.fjärde a, .första a, .andra a, .tredje a {
+border-bottom: solid rgb(81, 79, 90); 6px;
+}
+.första img {
+width:100%
+height:calc(80vh-250x);
+margin-left: 120px;
+border-radius:40px;
+box-shadow: 5px 5px 15px 5px #000000;
+}
+
+
+.andra{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:80px;
+}
+
+.andra img {
+    width: 100%;
+    height:calc(80vh-220px);
+    margin-right:120px;
+    border-radius: 40px;
+    box-shadow: 5px 5px 15px 5px #000000;
+}
+.tredje{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:80px;
+    }
+
+    .terdje img {
+        width: 100%;
+        height:calc(80vh-220px);
+        margin-right:120px;
+        border-radius: 40px;
+        box-shadow: 5px 5px 15px 5px #000000;
+    }
+    
+.fjärde{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:80px;
+    }
+
+.fjärde h4, .först h4, .andra h4, .tredje h4 {
+    text-shadow: 1px 0px 1px #cccccc, 0px 1px 1px #EEEEEE,2px 1px 1px #cccccc, 1px 2px 1px #EEEEEE,3px 2px 1px #cccccc, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 4px 5px 1 px#CCCCCC,5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+
+}
+.fjärde img {
+    width: 100%;
+    height:calc(80vh-250px);
+    margin-right:120px;
+    border-radius: 40px;
+    box-shadow: 5px 5px 15px 5px #000000;
+
+}
+
+
+
+.första h4, .första p, .andra h4, .andra p, .tredje h4, .terdje p, .fjärde h4, .fjärde p{
+    margin-bottom: 50px;
+}
